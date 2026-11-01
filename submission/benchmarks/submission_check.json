@@ -1,0 +1,34 @@
+{
+  "checks": {
+    "required_files_present": true,
+    "sample_responses_valid": true,
+    "recording_bank_matches_manifest": true,
+    "sample_has_all_selected_viewer_states": true,
+    "sample_unique_decisions": true,
+    "sample_has_readable_explanations": true,
+    "no_api_key_in_shareable_files": true,
+    "tests_passed": true,
+    "private_configuration_ignored": true
+  },
+  "passed": true,
+  "missing_files": [],
+  "files_with_possible_credentials": [],
+  "validator": {
+    "validator": "jsonschema.Draft202012Validator",
+    "library_version": "4.26.0",
+    "decisions_scanned": 46,
+    "accepted_proposals": 25,
+    "accepted_by_source": {
+      "live_llm_cache": 24,
+      "live_llm": 1
+    },
+    "rejected_count": 0,
+    "rejected": [],
+    "passed": true,
+    "scope": "Response contract only; factual eligibility and action safety require independent checks."
+  },
+  "recorded_contexts": 687,
+  "tests_run": 103,
+  "network_calls": 0,
+  "scope": "Local deliverable inventory and response-contract check; not fresh-model, deployment or uplift validation."
+}

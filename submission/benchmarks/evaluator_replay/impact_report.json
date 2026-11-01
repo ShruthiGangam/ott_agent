@@ -1,0 +1,87 @@
+{
+  "seed": "oua-practice",
+  "cohort": "all unique users in input trigger stream, including late triggers; assigned arms; no service filtering",
+  "window_start": "2026-09-30T18:32:59.458000Z",
+  "window_end": "2026-10-07T18:32:59.458000Z",
+  "metrics": {
+    "play_started": {
+      "agent": {
+        "users": 863,
+        "successes": 580,
+        "rate": 0.6720741599073001
+      },
+      "holdout": {
+        "users": 883,
+        "successes": 560,
+        "rate": 0.6342015855039638
+      },
+      "comparison": {
+        "difference_pp": 3.7872574403336356,
+        "approx_95ci_pp": [
+          -0.6740849461276656,
+          8.248599826794937
+        ]
+      }
+    },
+    "episode_completed": {
+      "agent": {
+        "users": 863,
+        "successes": 385,
+        "rate": 0.4461181923522596
+      },
+      "holdout": {
+        "users": 883,
+        "successes": 370,
+        "rate": 0.4190260475651189
+      },
+      "comparison": {
+        "difference_pp": 2.709214478714067,
+        "approx_95ci_pp": [
+          -1.9373628451610523,
+          7.355791802589187
+        ]
+      }
+    },
+    "purchase_completed": {
+      "agent": {
+        "users": 863,
+        "successes": 24,
+        "rate": 0.027809965237543453
+      },
+      "holdout": {
+        "users": 883,
+        "successes": 31,
+        "rate": 0.035107587768969425
+      },
+      "comparison": {
+        "difference_pp": -0.7297622531425972,
+        "approx_95ci_pp": [
+          -2.3660062689896773,
+          0.9064817627044826
+        ]
+      }
+    }
+  },
+  "goal_definition_groups": {
+    "original": {
+      "goals": 1202,
+      "succeeded": 127
+    },
+    "provisional": {
+      "goals": 224,
+      "succeeded": 86
+    }
+  },
+  "unique_users_with_recorded_page_exposure": 613,
+  "goal_status_counts": {
+    "failed": 760,
+    "inconclusive": 444,
+    "succeeded": 213,
+    "open": 9
+  },
+  "pilot_randomized_rates": {
+    "treatment": 0.18253138075313807,
+    "holdout": 0.1955533097524002
+  },
+  "causal_scope": "Simulation only. Approximate unadjusted 95% intervals; no real-world causal claim."
+}

@@ -1,0 +1,7 @@
+{
+  "entries": 687,
+  "prompt_sha256": "e91a5de79fd17fd183051081f52b372c7bdcbb7c3e31ac9ddd990c7c5d58e408",
+  "sha256": "4f162ae73ec0e0e33d7513555235f4e1de2cac5ce89081f17c0533ff78cd5628",
+  "excluded_invalid_responses": 0,
+  "scope": "Prior real replies for identical minimized inputs. Not fresh model inference; misses use recorded safe fallback."
+}

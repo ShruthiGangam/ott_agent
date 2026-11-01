@@ -1,0 +1,14 @@
+{
+  "seed": "messages-v3",
+  "triggered_users": 5,
+  "events_written": 14,
+  "counts": {
+    "actions_total": 3,
+    "push_delivered": 2,
+    "push_requested": 2,
+    "whatsapp_delivered": 1,
+    "whatsapp_requested": 1
+  },
+  "policy_problems": [],
+  "policy_problem_count": 0
+}

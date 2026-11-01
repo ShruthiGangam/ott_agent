@@ -1,0 +1,16 @@
+{
+  "scope": "actual local durable actor workers, deterministic safe path; no network/LLM capacity claim",
+  "supplied_peak_deliveries_per_10min": 242,
+  "multiplier": 3,
+  "burst_jobs": 726,
+  "burst_was_collapsed_into_seconds": 21.890999998897314,
+  "workers": 4,
+  "unique_decisions": 726,
+  "duplicate_jobs_suppressed": 726,
+  "network_calls": 0,
+  "over_60s": 0,
+  "p95_ms": 219.235,
+  "max_ms": 427.444,
+  "single_goal_violations": 0,
+  "passed": true
+}

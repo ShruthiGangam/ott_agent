@@ -1,0 +1,47 @@
+{
+  "decisions": 2679,
+  "duplicate_deliveries_suppressed": 2769,
+  "p50_ms": 19.107,
+  "p95_ms": 1296.562,
+  "p99_ms": 540340.691,
+  "max_ms": 685629.906,
+  "over_60s": 58,
+  "over_5min": 44,
+  "network_model_attempts": 706,
+  "max_model_calls": 2,
+  "max_tool_calls": 3,
+  "decision_kinds": {
+    "ACT": 873,
+    "ABSTAIN": 1669,
+    "INSUFFICIENT_EVIDENCE": 137
+  },
+  "model_sources": {
+    "live_llm": 701,
+    "not_called": 1741,
+    "verified_fallback": 53,
+    "live_llm_cache": 182,
+    "injected_fault": 2
+  },
+  "total_token_usage": {
+    "prompt_tokens": 857897,
+    "completion_tokens": 35079,
+    "total_tokens": 892976
+  },
+  "reasons": {
+    "Verified goal-directed intervention": 873,
+    "holdout_or_unknown_arm": 1030,
+    "insufficient_valid_content": 43,
+    "model_chose_no_action": 3,
+    "late_or_ambiguous_trigger": 421,
+    "current_plan_still_live": 150,
+    "missing_current_app_dialect": 82,
+    "model_insufficient_evidence": 11,
+    "verification_rejected": 7,
+    "user_data_store_timeout": 1,
+    "decision_budget_exceeded": 58
+  },
+  "model_fallbacks": {
+    "unsafe_payload": 43,
+    "model_provider_unavailable": 10
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "unique_trigger_count": 2679,
+  "decision_count": 2679,
+  "action_count": 891,
+  "violations": [],
+  "violation_count": 0,
+  "fault_coverage": [
+    {
+      "trigger_event_id": "202cccb8-8127-465f-b2d0-038cf533197e",
+      "fault": "unsupported_claim",
+      "model_called": true,
+      "outcome": "model_output_rejected",
+      "note": "Injected provider response checked"
+    },
+    {
+      "trigger_event_id": "a54e16b6-056d-4d0a-a35d-bd8257802c54",
+      "fault": "unsupported_claim",
+      "model_called": false,
+      "outcome": "late_or_ambiguous_trigger",
+      "note": "Injection bypassed because no model call was needed"
+    },
+    {
+      "trigger_event_id": "cd885956-0406-4b17-8e0b-3b97bbdd8a13",
+      "fault": "unsupported_claim",
+      "model_called": false,
+      "outcome": "late_or_ambiguous_trigger",
+      "note": "Injection bypassed because no model call was needed"
+    },
+    {
+      "trigger_event_id": "76b138f6-0952-456d-904a-bd0d04497cf7",
+      "fault": "malformed_output",
+      "model_called": true,
+      "outcome": "model_output_rejected",
+      "note": "Injected provider response checked"
+    },
+    {
+      "trigger_event_id": "5edb5b00-0773-4063-8da8-40929553233c",
+      "fault": "timeout",
+      "model_called": false,
+      "outcome": "holdout_or_unknown_arm",
+      "note": "Injection bypassed because no model call was needed"
+    }
+  ],
+  "scope": "Independent static replay audit; does not establish production load capacity or provider privacy."
+}

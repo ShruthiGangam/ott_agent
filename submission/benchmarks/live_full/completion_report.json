@@ -1,0 +1,268 @@
+{
+  "prompt_version": "viewer-lifecycle-v3",
+  "prompt_sha256": "e91a5de79fd17fd183051081f52b372c7bdcbb7c3e31ac9ddd990c7c5d58e408",
+  "run": "C:\\Users\\ADMIN\\Documents\\ott_agent\\one_user_one_agent_pack\\submission\\agent_run_requirements_v3_validated",
+  "decisions": 2679,
+  "viewers": 1746,
+  "decision_kinds": {
+    "ACT": 899,
+    "ABSTAIN": 1607,
+    "INSUFFICIENT_EVIDENCE": 173
+  },
+  "actions_by_channel": {
+    "home_page": 886,
+    "push": 12,
+    "whatsapp": 1
+  },
+  "network_requests": 69,
+  "model_sources": {
+    "live_llm_cache": 836,
+    "not_called": 1766,
+    "live_llm": 67,
+    "verified_fallback": 10
+  },
+  "actual_models": {
+    "gpt-5.4-mini-2026-03-17": 899,
+    "gpt-4.1-mini-2025-04-14": 4
+  },
+  "logical_model_attempts": 917,
+  "fallback_model_accepted": 4,
+  "latency": {
+    "decisions": 2679,
+    "duplicate_deliveries_suppressed": 90,
+    "p50_ms": 11.471,
+    "p95_ms": 43.584,
+    "p99_ms": 1205.783,
+    "max_ms": 20449.158,
+    "over_60s": 0,
+    "over_5min": 0,
+    "network_model_attempts": 69,
+    "max_model_calls": 2,
+    "max_tool_calls": 3,
+    "decision_kinds": {
+      "ACT": 899,
+      "ABSTAIN": 1607,
+      "INSUFFICIENT_EVIDENCE": 173
+    },
+    "model_sources": {
+      "live_llm_cache": 836,
+      "not_called": 1766,
+      "live_llm": 67,
+      "verified_fallback": 10
+    },
+    "total_token_usage": {
+      "prompt_tokens": 83693,
+      "completion_tokens": 3481,
+      "total_tokens": 87174
+    },
+    "reasons": {
+      "Verified goal-directed intervention": 899,
+      "holdout_or_unknown_arm": 1025,
+      "missing_current_app_dialect": 160,
+      "model_chose_no_action": 1,
+      "late_or_ambiguous_trigger": 424,
+      "current_plan_still_live": 156,
+      "model_insufficient_evidence": 12,
+      "user_data_store_timeout": 1,
+      "verification_rejected": 1
+    },
+    "model_fallbacks": {
+      "model_provider_unavailable": 10
+    }
+  },
+  "unit_tests_passed": 83,
+  "unit_test_report": {
+    "tests_run": 83,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true,
+    "elapsed_s": 15.906,
+    "network_calls": 0,
+    "scope": "automated local regression suite; transport/test doubles confined to tests"
+  },
+  "cold_run_latency": {
+    "decisions": 2679,
+    "duplicate_deliveries_suppressed": 2769,
+    "p50_ms": 19.107,
+    "p95_ms": 1296.562,
+    "p99_ms": 540340.691,
+    "max_ms": 685629.906,
+    "over_60s": 58,
+    "over_5min": 44,
+    "network_model_attempts": 706,
+    "max_model_calls": 2,
+    "max_tool_calls": 3,
+    "decision_kinds": {
+      "ACT": 873,
+      "ABSTAIN": 1669,
+      "INSUFFICIENT_EVIDENCE": 137
+    },
+    "model_sources": {
+      "live_llm": 701,
+      "not_called": 1741,
+      "verified_fallback": 53,
+      "live_llm_cache": 182,
+      "injected_fault": 2
+    },
+    "total_token_usage": {
+      "prompt_tokens": 857897,
+      "completion_tokens": 35079,
+      "total_tokens": 892976
+    },
+    "reasons": {
+      "Verified goal-directed intervention": 873,
+      "holdout_or_unknown_arm": 1030,
+      "insufficient_valid_content": 43,
+      "model_chose_no_action": 3,
+      "late_or_ambiguous_trigger": 421,
+      "current_plan_still_live": 150,
+      "missing_current_app_dialect": 82,
+      "model_insufficient_evidence": 11,
+      "verification_rejected": 7,
+      "user_data_store_timeout": 1,
+      "decision_budget_exceeded": 58
+    },
+    "model_fallbacks": {
+      "unsafe_payload": 43,
+      "model_provider_unavailable": 10
+    }
+  },
+  "independent_violations": 0,
+  "simulator_events": 31604,
+  "simulator_policy_problems": 0,
+  "live_message_channels_exercised": [
+    "in_app_message",
+    "push",
+    "whatsapp"
+  ],
+  "live_message_safety_passed": true,
+  "live_abstention_observed": true,
+  "worker_stress": {
+    "scope": "actual local durable actor workers, deterministic safe path; no network/LLM capacity claim",
+    "supplied_peak_deliveries_per_10min": 242,
+    "multiplier": 3,
+    "burst_jobs": 726,
+    "burst_was_collapsed_into_seconds": 21.890999998897314,
+    "workers": 4,
+    "unique_decisions": 726,
+    "duplicate_jobs_suppressed": 726,
+    "network_calls": 0,
+    "over_60s": 0,
+    "p95_ms": 219.235,
+    "max_ms": 427.444,
+    "single_goal_violations": 0,
+    "passed": true
+  },
+  "goal_counts": {
+    "G05": 416,
+    "G11": 453,
+    "G10": 182,
+    "G08": 103,
+    "G02": 55,
+    "G12": 47,
+    "G07": 24,
+    "G06": 44,
+    "G01": 101,
+    "G03": 1
+  },
+  "goal_definition_groups": {
+    "original": {
+      "goals": 1200,
+      "succeeded": 126
+    },
+    "provisional": {
+      "goals": 226,
+      "succeeded": 87
+    }
+  },
+  "impact": {
+    "play_started": {
+      "agent": {
+        "users": 863,
+        "successes": 580,
+        "rate": 0.6720741599073001
+      },
+      "holdout": {
+        "users": 883,
+        "successes": 560,
+        "rate": 0.6342015855039638
+      },
+      "comparison": {
+        "difference_pp": 3.7872574403336356,
+        "approx_95ci_pp": [
+          -0.6740849461276656,
+          8.248599826794937
+        ]
+      }
+    },
+    "episode_completed": {
+      "agent": {
+        "users": 863,
+        "successes": 385,
+        "rate": 0.4461181923522596
+      },
+      "holdout": {
+        "users": 883,
+        "successes": 370,
+        "rate": 0.4190260475651189
+      },
+      "comparison": {
+        "difference_pp": 2.709214478714067,
+        "approx_95ci_pp": [
+          -1.9373628451610523,
+          7.355791802589187
+        ]
+      }
+    },
+    "purchase_completed": {
+      "agent": {
+        "users": 863,
+        "successes": 24,
+        "rate": 0.027809965237543453
+      },
+      "holdout": {
+        "users": 883,
+        "successes": 31,
+        "rate": 0.035107587768969425
+      },
+      "comparison": {
+        "difference_pp": -0.7297622531425972,
+        "approx_95ci_pp": [
+          -2.3660062689896773,
+          0.9064817627044826
+        ]
+      }
+    }
+  },
+  "original_definitions_unchanged": true,
+  "provisional_goal_definitions": {
+    "source": "documented implementation assumptions; not changes to supplied evidence",
+    "G06": {
+      "recently_lapsed_days": 14,
+      "status": "provisional",
+      "reason": "The pack gives lapsed status but no definition of recently. Require an observed lapse or known expiry."
+    },
+    "G10": {
+      "success": {
+        "event": "episode_completed",
+        "condition": "any episode; explicit operational proxy for undefined meaningful engagement",
+        "window_hours": 168
+      },
+      "status": "provisional",
+      "reason": "Episode completion is an attributable supplied event, not an invented signal. Report separately from original-defined goals."
+    },
+    "G11": {
+      "telemetry_complete": false,
+      "status": "supported_but_unobserved",
+      "reason": "Accept actual tv_app_open events; absence in this simulator is inconclusive, never success or definitive failure."
+    }
+  },
+  "simulator_sha256": "1ad2352a3e22a9c82925eedfd48311489b9be61f2d29d834ee346b357d93254c",
+  "raw_replay_decisions_unchanged": true,
+  "analysis_scope": "Current offline analyzer; original raw decisions/actions preserved. Worker/delivery components tested separately. No new API call in this finalizer.",
+  "deployed": false,
+  "real_phone_delivery_claimed": false,
+  "positive_uplift_claimed": false,
+  "all_scoped_validation_passed": true
+}

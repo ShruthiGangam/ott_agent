@@ -1,0 +1,19 @@
+[project]
+name = "ott-viewer-agent"
+version = "0.2.0"
+description = "Evidence-led per-viewer lifecycle agent with live and key-free recorded providers"
+requires-python = ">=3.12"
+dependencies = ["jsonschema==4.26.0"]
+
+[project.scripts]
+ott-agent = "ott_agent.__main__:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["ott_agent*", "tools*"]
+
+[tool.setuptools.package-data]
+ott_agent = ["assets/*.json", "assets/*.jsonl"]

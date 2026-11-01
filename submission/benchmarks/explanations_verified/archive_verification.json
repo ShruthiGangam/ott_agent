@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "checks": {
+    "all_requirements_checks_passed": true,
+    "all_decisions_have_specific_explanations": true,
+    "all_explanations_have_decision_time_evidence": true,
+    "csv_matches_saved_explanations": true,
+    "no_deadline_misses_in_clean_archive_run": true,
+    "no_simulator_policy_problems": true,
+    "extracted_archive_tests_passed": true,
+    "source_code_matches_tested_archive": true
+  },
+  "decisions": 2679,
+  "triggered_viewers": 1746,
+  "actions": 899,
+  "no_action": 1780,
+  "provider_mode": "recorded",
+  "network_calls": 0,
+  "p95_ms": 49.589,
+  "max_ms": 20432.407,
+  "deadline_misses": 0,
+  "simulator_events": 31604,
+  "tests_run": 103,
+  "model_sources": {
+    "recorded_llm": 900,
+    "not_called": 1766,
+    "verified_fallback": 13
+  },
+  "action_channels": {
+    "home_page": 886,
+    "push": 12,
+    "whatsapp": 1
+  },
+  "previous_failed_timing_run": "benchmarks/explanation_latency_failure; 20 misses retained, cause unconfirmed",
+  "scope": "Full key-free replay executed from the extracted source archive, using the installed Python dependencies; no live model or production claim."
+}

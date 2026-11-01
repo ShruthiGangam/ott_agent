@@ -1,0 +1,104 @@
+{
+  "scope": "Full supplied-pack replay with independently checked homepage/message actions and explicit no-action decisions. Delivery observations come from the unchanged simulator; no real phones contacted.",
+  "checks": {
+    "understand_viewer": true,
+    "choose_measurable_goal_or_explain": true,
+    "decide_intervention_or_no_action": true,
+    "act_within_budget": true,
+    "independent_verification": true,
+    "close_loop": true,
+    "randomized_impact_measurement": true,
+    "one_open_goal_per_viewer": true,
+    "explicit_valid_no_action": true,
+    "explicit_insufficient_evidence": true
+  },
+  "all_checks_passed_in_scope": true,
+  "decision_count": 2679,
+  "viewer_count": 1746,
+  "action_count": 899,
+  "no_action_count": 1780,
+  "insufficient_evidence_count": 173,
+  "no_action_reasons": {
+    "holdout_or_unknown_arm": 1025,
+    "missing_current_app_dialect": 160,
+    "model_chose_no_action": 1,
+    "late_or_ambiguous_trigger": 424,
+    "current_plan_still_live": 156,
+    "model_insufficient_evidence": 12,
+    "user_data_store_timeout": 1,
+    "verification_rejected": 1
+  },
+  "model_sources": {
+    "live_llm_cache": 836,
+    "not_called": 1766,
+    "live_llm": 67,
+    "verified_fallback": 10
+  },
+  "goal_status_counts": {
+    "failed": 760,
+    "inconclusive": 444,
+    "succeeded": 213,
+    "open": 9
+  },
+  "goal_ids": {
+    "G05": 416,
+    "G11": 453,
+    "G10": 182,
+    "G08": 103,
+    "G02": 55,
+    "G12": 47,
+    "G07": 24,
+    "G06": 44,
+    "G01": 101,
+    "G03": 1
+  },
+  "corrected_open_goal_instances": 0,
+  "corrected_viewers": 0,
+  "latency": {
+    "decisions": 2679,
+    "duplicate_deliveries_suppressed": 90,
+    "p50_ms": 11.471,
+    "p95_ms": 43.584,
+    "p99_ms": 1205.783,
+    "max_ms": 20449.158,
+    "over_60s": 0,
+    "over_5min": 0,
+    "network_model_attempts": 69,
+    "max_model_calls": 2,
+    "max_tool_calls": 3,
+    "decision_kinds": {
+      "ACT": 899,
+      "ABSTAIN": 1607,
+      "INSUFFICIENT_EVIDENCE": 173
+    },
+    "model_sources": {
+      "live_llm_cache": 836,
+      "not_called": 1766,
+      "live_llm": 67,
+      "verified_fallback": 10
+    },
+    "total_token_usage": {
+      "prompt_tokens": 83693,
+      "completion_tokens": 3481,
+      "total_tokens": 87174
+    },
+    "reasons": {
+      "Verified goal-directed intervention": 899,
+      "holdout_or_unknown_arm": 1025,
+      "missing_current_app_dialect": 160,
+      "model_chose_no_action": 1,
+      "late_or_ambiguous_trigger": 424,
+      "current_plan_still_live": 156,
+      "model_insufficient_evidence": 12,
+      "user_data_store_timeout": 1,
+      "verification_rejected": 1
+    },
+    "model_fallbacks": {
+      "model_provider_unavailable": 10
+    }
+  },
+  "simulator_policy_problems": 0,
+  "positive_business_effect_proven": false,
+  "effect_note": "Read each randomized difference and uncertainty interval; pipeline completion is not proof of positive uplift.",
+  "data_authorization": "explicit_user_override_for_synthetic_pack"
+}

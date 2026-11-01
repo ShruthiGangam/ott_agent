@@ -1,0 +1,13 @@
+{
+  "validator": "jsonschema.Draft202012Validator",
+  "library_version": "4.26.0",
+  "decisions_scanned": 2679,
+  "accepted_proposals": 892,
+  "accepted_by_source": {
+    "recorded_llm": 892
+  },
+  "rejected_count": 0,
+  "rejected": [],
+  "passed": true,
+  "scope": "Response contract only; factual eligibility and action safety require independent checks."
+}

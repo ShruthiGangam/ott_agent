@@ -1,0 +1,39 @@
+{
+  "scope": "authored cases, actual engine and uncached live models, unchanged supplied simulator; no real phones",
+  "decisions": 5,
+  "channels": {
+    "push": 2,
+    "whatsapp": 1
+  },
+  "model_attempts": 5,
+  "network_requests": 4,
+  "models": {
+    "gpt-5.4-mini-2026-03-17": 3,
+    "gpt-4.1-mini-2025-04-14": 1
+  },
+  "local_backend_acceptance": {
+    "accepted": 3,
+    "cancelled": 0,
+    "failed": 0,
+    "delivered": 0
+  },
+  "simulator": {
+    "seed": "messages-v3",
+    "triggered_users": 5,
+    "events_written": 14,
+    "counts": {
+      "actions_total": 3,
+      "push_delivered": 2,
+      "push_requested": 2,
+      "whatsapp_delivered": 1,
+      "whatsapp_requested": 1
+    },
+    "policy_problems": [],
+    "policy_problem_count": 0
+  },
+  "simulator_sha256": "1ad2352a3e22a9c82925eedfd48311489b9be61f2d29d834ee346b357d93254c",
+  "simulator_unchanged": true,
+  "audit_violations": 0,
+  "holdout_untouched": true,
+  "passed": false
+}

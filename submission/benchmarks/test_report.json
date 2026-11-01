@@ -1,0 +1,10 @@
+{
+  "tests_run": 103,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "passed": true,
+  "elapsed_s": 29.359,
+  "network_calls": 0,
+  "scope": "automated local regression suite; transport/test doubles confined to tests"
+}

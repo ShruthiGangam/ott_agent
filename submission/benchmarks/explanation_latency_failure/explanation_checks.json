@@ -1,0 +1,12 @@
+{
+  "checks": {
+    "all_decisions_have_explanations": true,
+    "generic_final_reasons_removed": true,
+    "failure_records_are_abstentions": true
+  },
+  "passed": true,
+  "decisions": 2679,
+  "deadline_misses": 20,
+  "cause": "Unconfirmed long elapsed-time anomaly during an 8-second scheduled degraded-store read; queue delay propagated. No external model calls.",
+  "scope": "Explanation correctness and safe abstention passed; the 60-second latency requirement failed in this run."
+}

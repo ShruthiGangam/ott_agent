@@ -1,0 +1,45 @@
+{
+  "original_goal_count": 12,
+  "implemented_goal_paths": 12,
+  "original_goals_sha256": "7bc1c35368bfe649f5eb387ad4036aae3a770a6670d01fe4f8e7c773d5d35356",
+  "supplied_corrections": [
+    {
+      "at": "2026-10-01T08:30:00.000Z",
+      "type": "goal_rule_corrected",
+      "goal_id": "G03",
+      "old_success": {
+        "event": "app_open",
+        "condition": "on a later IST calendar day within the window"
+      },
+      "new_success": {
+        "event": "play_started",
+        "condition": "on a later IST calendar day within the window"
+      },
+      "applies_to": "every G03 goal that is still open, including goals opened before this correction",
+      "note": "Correction from the analytics owner: an app open alone was never meant to count as a return."
+    }
+  ],
+  "implementation_interpretations": {
+    "source": "documented implementation assumptions; not changes to supplied evidence",
+    "G06": {
+      "recently_lapsed_days": 14,
+      "status": "provisional",
+      "reason": "The pack gives lapsed status but no definition of recently. Require an observed lapse or known expiry."
+    },
+    "G10": {
+      "success": {
+        "event": "episode_completed",
+        "condition": "any episode; explicit operational proxy for undefined meaningful engagement",
+        "window_hours": 168
+      },
+      "status": "provisional",
+      "reason": "Episode completion is an attributable supplied event, not an invented signal. Report separately from original-defined goals."
+    },
+    "G11": {
+      "telemetry_complete": false,
+      "status": "supported_but_unobserved",
+      "reason": "Accept actual tv_app_open events; absence in this simulator is inconclusive, never success or definitive failure."
+    }
+  },
+  "note": "One supplied G03 success correction; two explicit provisional G06/G10 interpretations. G11 telemetry absence is not a rule change."
+}

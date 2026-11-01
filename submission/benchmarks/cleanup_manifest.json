@@ -1,0 +1,220 @@
+{
+    "purpose":  "User-requested removal of redundant generated runs and obsolete diagnostics",
+    "removed":  [
+                    {
+                        "path":  "agent_run_full_live",
+                        "files":  1765,
+                        "bytes":  152404002
+                    },
+                    {
+                        "path":  "agent_run_full_validated",
+                        "files":  1770,
+                        "bytes":  164368320
+                    },
+                    {
+                        "path":  "agent_run_requirements_v2",
+                        "files":  5,
+                        "bytes":  180375333
+                    },
+                    {
+                        "path":  "agent_run_requirements_v3",
+                        "files":  1761,
+                        "bytes":  179364512
+                    },
+                    {
+                        "path":  "agent_run_requirements_v3_validated",
+                        "files":  1767,
+                        "bytes":  179122280
+                    },
+                    {
+                        "path":  "full_pack_live_run",
+                        "files":  1,
+                        "bytes":  357
+                    },
+                    {
+                        "path":  "live_agent_run",
+                        "files":  17,
+                        "bytes":  201582
+                    },
+                    {
+                        "path":  "live_agent_run_current",
+                        "files":  15,
+                        "bytes":  169523
+                    },
+                    {
+                        "path":  "live_agent_simulator_run",
+                        "files":  21,
+                        "bytes":  399058
+                    },
+                    {
+                        "path":  "live_messages_final",
+                        "files":  21,
+                        "bytes":  251904
+                    },
+                    {
+                        "path":  "live_messages_v3",
+                        "files":  21,
+                        "bytes":  247066
+                    },
+                    {
+                        "path":  "runtime_stress_final",
+                        "files":  14,
+                        "bytes":  111759884
+                    },
+                    {
+                        "path":  "runtime_stress_v2",
+                        "files":  14,
+                        "bytes":  97796618
+                    },
+                    {
+                        "path":  "runtime_stress_v3",
+                        "files":  14,
+                        "bytes":  97911295
+                    },
+                    {
+                        "path":  "runs\\evaluator_validation",
+                        "files":  1762,
+                        "bytes":  179225751
+                    },
+                    {
+                        "path":  "live_check_hardened.json",
+                        "files":  1,
+                        "bytes":  1505
+                    },
+                    {
+                        "path":  "live_check_report_openai.json",
+                        "files":  1,
+                        "bytes":  1504
+                    },
+                    {
+                        "path":  "live_plan_check_v2.json",
+                        "files":  1,
+                        "bytes":  10005
+                    },
+                    {
+                        "path":  ".llm_response_cache.json",
+                        "files":  1,
+                        "bytes":  44798
+                    },
+                    {
+                        "path":  "goal_interpretations.json",
+                        "files":  1,
+                        "bytes":  805
+                    },
+                    {
+                        "path":  "unit_test_report.json",
+                        "files":  1,
+                        "bytes":  230
+                    },
+                    {
+                        "path":  "tools\\cache_recorded_responses.py",
+                        "files":  1,
+                        "bytes":  2789
+                    },
+                    {
+                        "path":  "tools\\diagnose_run.py",
+                        "files":  1,
+                        "bytes":  775
+                    },
+                    {
+                        "path":  "tools\\prepare_submission.py",
+                        "files":  1,
+                        "bytes":  7289
+                    },
+                    {
+                        "path":  "tools\\finalize_requirements.py",
+                        "files":  1,
+                        "bytes":  11169
+                    },
+                    {
+                        "path":  "tools\\refresh_docs.py",
+                        "files":  1,
+                        "bytes":  11201
+                    }
+                ],
+    "total_files":  8979,
+    "total_bytes":  1343689555,
+    "preserved_input_hashes":  [
+                                   {
+                                       "path":  "C:\\Users\\ADMIN\\Documents\\ott_agent\\one_user_one_agent_pack\\data\\catalogue.csv",
+                                       "sha256":  "31E683A9850E2867C31F69B2E6C329B831580DAF377ED3D4FF2C9AB4B0901B8C"
+                                   },
+                                   {
+                                       "path":  "C:\\Users\\ADMIN\\Documents\\ott_agent\\one_user_one_agent_pack\\data\\episodes.csv",
+                                       "sha256":  "35C2FEB85A724721F60F743BA3ED0A0ADEA27CBE4BADFBE420E7EF475B8679B8"
+                                   },
+                                   {
+                                       "path":  "C:\\Users\\ADMIN\\Documents\\ott_agent\\one_user_one_agent_pack\\data\\events.jsonl",
+                                       "sha256":  "E6FDE6415411124B51C62E264F25BE620D3DAFE64E915BAA336E31F373AD05A5"
+                                   },
+                                   {
+                                       "path":  "C:\\Users\\ADMIN\\Documents\\ott_agent\\one_user_one_agent_pack\\data\\profiles_snapshot.csv",
+                                       "sha256":  "AC610156AC026A8ADF6B21BF200DB821712025FDAFED3274AF654CF7948E144A"
+                                   },
+                                   {
+                                       "path":  "C:\\Users\\ADMIN\\Documents\\ott_agent\\one_user_one_agent_pack\\config\\goals.json",
+                                       "sha256":  "7BC1C35368BFE649F5EB387AD4036AAE3A770A6670D01FE4F8E7C773D5D35356"
+                                   },
+                                   {
+                                       "path":  "C:\\Users\\ADMIN\\Documents\\ott_agent\\one_user_one_agent_pack\\config\\interventions.json",
+                                       "sha256":  "39DA2EFFEF783D04524015A85A91DEA5FD254CC6E57D44301AC685AC254824E2"
+                                   },
+                                   {
+                                       "path":  "C:\\Users\\ADMIN\\Documents\\ott_agent\\one_user_one_agent_pack\\config\\messaging_policy.md",
+                                       "sha256":  "1D8D535BDE7FD9EBF714E010B3D471AB796BBC66D6E7F4F6449C9AECD7B33F2C"
+                                   },
+                                   {
+                                       "path":  "C:\\Users\\ADMIN\\Documents\\ott_agent\\one_user_one_agent_pack\\config\\pricing.json",
+                                       "sha256":  "BCBB2D6ACFC3586CDE477DB30607C724C998B2F8B719295FDDBFAD253290777E"
+                                   },
+                                   {
+                                       "path":  "C:\\Users\\ADMIN\\Documents\\ott_agent\\one_user_one_agent_pack\\replay\\arms.csv",
+                                       "sha256":  "869FE56CBB3EED81BF73FD94FBA5B6D2ED2E84D2FEAAC465A792940CF5063A51"
+                                   },
+                                   {
+                                       "path":  "C:\\Users\\ADMIN\\Documents\\ott_agent\\one_user_one_agent_pack\\replay\\control_events.jsonl",
+                                       "sha256":  "0E46D883BB0AA5A6D1E1A68902A4F4AE81917B49F959CCB1F66697BF50AFC933"
+                                   },
+                                   {
+                                       "path":  "C:\\Users\\ADMIN\\Documents\\ott_agent\\one_user_one_agent_pack\\replay\\live_events.jsonl",
+                                       "sha256":  "62A518A6DC7B1809BF14AD139A3C9DAC42E1308F7CBF60FDD86EE37DFF0432BE"
+                                   },
+                                   {
+                                       "path":  "C:\\Users\\ADMIN\\Documents\\ott_agent\\one_user_one_agent_pack\\replay\\model_faults.jsonl",
+                                       "sha256":  "B764E9A6CF877A72E8092E7DA6E5E1D714FDCAFDBF31F5BCEF5338A1A4176491"
+                                   },
+                                   {
+                                       "path":  "C:\\Users\\ADMIN\\Documents\\ott_agent\\one_user_one_agent_pack\\replay\\triggers.jsonl",
+                                       "sha256":  "94B2342BBCBE50B8D9AC7B3AD21AD74665FA5E454C310D96CF55064355650F9B"
+                                   },
+                                   {
+                                       "path":  "C:\\Users\\ADMIN\\Documents\\ott_agent\\one_user_one_agent_pack\\pilot\\pilot_assignment.csv",
+                                       "sha256":  "6AB0968BB8BA00A43C0E71A67CEED6EE76623E5635FC3DF0CF9184493A930D10"
+                                   },
+                                   {
+                                       "path":  "C:\\Users\\ADMIN\\Documents\\ott_agent\\one_user_one_agent_pack\\pilot\\pilot_outcomes.csv",
+                                       "sha256":  "B6A1ED554937CF0164C40C7E3B1DA8C7F67F38E1E4F14D6FC3F1E4A59949BCB5"
+                                   },
+                                   {
+                                       "path":  "C:\\Users\\ADMIN\\Documents\\ott_agent\\one_user_one_agent_pack\\pilot\\pilot_summary_report.md",
+                                       "sha256":  "9CCFA366934C8F46CA1201C095BAE594B91029DD99B240E5F0BCB070C6A16A88"
+                                   },
+                                   {
+                                       "path":  "C:\\Users\\ADMIN\\Documents\\ott_agent\\one_user_one_agent_pack\\simulator\\simulate_outcomes.py",
+                                       "sha256":  "1AD2352A3E22A9C82925EEDFD48311489B9BE61F2D29D834EE346B357D93254C"
+                                   },
+                                   {
+                                       "path":  "C:\\Users\\ADMIN\\Documents\\ott_agent\\one_user_one_agent_pack\\README.md",
+                                       "sha256":  "334875FA23CCE0ECA4DD75B1A43787BB5D9F9492B6179D1971BEA9038CE1CCF9"
+                                   },
+                                   {
+                                       "path":  "C:\\Users\\ADMIN\\Documents\\ott_agent\\assignment_one_user_one_agent.pdf",
+                                       "sha256":  "AFB266CC8AD06ACEAB8BDAFC84C816C238B59B377E839C3F38A8F1D9E781D189"
+                                   }
+                               ],
+    "sample":  "sample_replay",
+    "benchmarks":  "benchmarks",
+    "recordings":  "ott_agent/assets/recorded_responses.jsonl",
+    "private_env_preserved":  true,
+    "virtual_environment_preserved":  true
+}

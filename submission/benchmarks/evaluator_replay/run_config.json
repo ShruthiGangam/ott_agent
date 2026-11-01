@@ -1,0 +1,40 @@
+{
+  "provider": "recorded_real_replies",
+  "model_timeout_s": 0.02,
+  "max_model_calls": 8,
+  "max_tool_calls": 20,
+  "decision_deadline_s": 60,
+  "seed": "oua-practice",
+  "data_authorization": "no_external_transmission",
+  "zero_data_retention_verified_by_code": false,
+  "model": "recorded-real-llm-replies",
+  "fallback_model": null,
+  "response_validator": {
+    "library": "jsonschema",
+    "version": "4.26.0",
+    "draft": "2020-12"
+  },
+  "goal_interpretations": {
+    "source": "documented implementation assumptions; not changes to supplied evidence",
+    "G06": {
+      "recently_lapsed_days": 14,
+      "status": "provisional",
+      "reason": "The pack gives lapsed status but no definition of recently. Require an observed lapse or known expiry."
+    },
+    "G10": {
+      "success": {
+        "event": "episode_completed",
+        "condition": "any episode; explicit operational proxy for undefined meaningful engagement",
+        "window_hours": 168
+      },
+      "status": "provisional",
+      "reason": "Episode completion is an attributable supplied event, not an invented signal. Report separately from original-defined goals."
+    },
+    "G11": {
+      "telemetry_complete": false,
+      "status": "supported_but_unobserved",
+      "reason": "Accept actual tv_app_open events; absence in this simulator is inconclusive, never success or definitive failure."
+    }
+  },
+  "prompt_version": "viewer-lifecycle-v3"
+}

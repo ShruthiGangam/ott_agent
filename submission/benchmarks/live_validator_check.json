@@ -1,0 +1,402 @@
+{
+  "prompt_version": "viewer-lifecycle-v3",
+  "prompt_sha256": "e91a5de79fd17fd183051081f52b372c7bdcbb7c3e31ac9ddd990c7c5d58e408",
+  "cached": false,
+  "data_scope": "hand-authored synthetic summaries; not supplied raw pack records",
+  "cases": [
+    {
+      "case": "home_page",
+      "input": {
+        "eligible_goals": [
+          {
+            "goal_id": "G01",
+            "success_event": "play_started",
+            "window_hours": 24,
+            "rule_version": "2026-09-30"
+          }
+        ],
+        "evidence": [
+          {
+            "key": "F0",
+            "fact": "dialect",
+            "value": "d2",
+            "freshness": "fresh"
+          },
+          {
+            "key": "F1",
+            "fact": "language",
+            "value": "hin",
+            "freshness": "fresh"
+          },
+          {
+            "key": "F2",
+            "fact": "push_consent",
+            "value": true,
+            "freshness": "recent"
+          },
+          {
+            "key": "F3",
+            "fact": "whatsapp_consent",
+            "value": true,
+            "freshness": "recent"
+          }
+        ],
+        "channel_options": [
+          "home_page"
+        ],
+        "active_goal_id": null,
+        "activity": {
+          "plays": 0,
+          "completions": 0
+        }
+      },
+      "status": "accepted",
+      "proposal": {
+        "goal_id": "G01",
+        "intervention": "home_page",
+        "reason_code": "next_step",
+        "evidence_keys": [
+          "F0",
+          "F1"
+        ],
+        "confidence": 0.93
+      },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "latency_ms": 1656.0,
+      "attempts": [
+        {
+          "model": "gpt-5.4-mini",
+          "endpoint": "https://api.openai.com/v1/chat/completions",
+          "status": "accepted",
+          "network": true,
+          "cached": false,
+          "latency_ms": 1656.0
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1133,
+        "completion_tokens": 45,
+        "total_tokens": 1178
+      }
+    },
+    {
+      "case": "push",
+      "input": {
+        "eligible_goals": [
+          {
+            "goal_id": "G12",
+            "success_event": "play_started",
+            "window_hours": 168,
+            "rule_version": "2026-09-30"
+          }
+        ],
+        "evidence": [
+          {
+            "key": "F0",
+            "fact": "dialect",
+            "value": "d2",
+            "freshness": "fresh"
+          },
+          {
+            "key": "F1",
+            "fact": "language",
+            "value": "hin",
+            "freshness": "fresh"
+          },
+          {
+            "key": "F2",
+            "fact": "push_consent",
+            "value": true,
+            "freshness": "recent"
+          },
+          {
+            "key": "F3",
+            "fact": "whatsapp_consent",
+            "value": true,
+            "freshness": "recent"
+          }
+        ],
+        "channel_options": [
+          "push"
+        ],
+        "active_goal_id": null,
+        "activity": {
+          "plays": 2,
+          "completions": 0
+        }
+      },
+      "status": "accepted",
+      "proposal": {
+        "goal_id": "G12",
+        "intervention": "push",
+        "reason_code": "next_step",
+        "evidence_keys": [
+          "F0",
+          "F1",
+          "F2",
+          "F3"
+        ],
+        "confidence": 0.86
+      },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "latency_ms": 1297.0,
+      "attempts": [
+        {
+          "model": "gpt-5.4-mini",
+          "endpoint": "https://api.openai.com/v1/chat/completions",
+          "status": "accepted",
+          "network": true,
+          "cached": false,
+          "latency_ms": 1297.0
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1131,
+        "completion_tokens": 50,
+        "total_tokens": 1181
+      }
+    },
+    {
+      "case": "whatsapp",
+      "input": {
+        "eligible_goals": [
+          {
+            "goal_id": "G12",
+            "success_event": "play_started",
+            "window_hours": 168,
+            "rule_version": "2026-09-30"
+          }
+        ],
+        "evidence": [
+          {
+            "key": "F0",
+            "fact": "dialect",
+            "value": "d2",
+            "freshness": "fresh"
+          },
+          {
+            "key": "F1",
+            "fact": "language",
+            "value": "hin",
+            "freshness": "fresh"
+          },
+          {
+            "key": "F2",
+            "fact": "push_consent",
+            "value": true,
+            "freshness": "recent"
+          },
+          {
+            "key": "F3",
+            "fact": "whatsapp_consent",
+            "value": true,
+            "freshness": "recent"
+          }
+        ],
+        "channel_options": [
+          "whatsapp"
+        ],
+        "active_goal_id": null,
+        "activity": {
+          "plays": 2,
+          "completions": 0
+        }
+      },
+      "status": "accepted",
+      "proposal": {
+        "goal_id": "G12",
+        "intervention": "whatsapp",
+        "reason_code": "next_step",
+        "evidence_keys": [
+          "F0",
+          "F1",
+          "F3"
+        ],
+        "confidence": 0.74
+      },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "latency_ms": 1344.0,
+      "attempts": [
+        {
+          "model": "gpt-5.4-mini",
+          "endpoint": "https://api.openai.com/v1/chat/completions",
+          "status": "accepted",
+          "network": true,
+          "cached": false,
+          "latency_ms": 1344.0
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1133,
+        "completion_tokens": 48,
+        "total_tokens": 1181
+      }
+    },
+    {
+      "case": "in_app_message",
+      "input": {
+        "eligible_goals": [
+          {
+            "goal_id": "G12",
+            "success_event": "play_started",
+            "window_hours": 168,
+            "rule_version": "2026-09-30"
+          }
+        ],
+        "evidence": [
+          {
+            "key": "F0",
+            "fact": "dialect",
+            "value": "d2",
+            "freshness": "fresh"
+          },
+          {
+            "key": "F1",
+            "fact": "language",
+            "value": "hin",
+            "freshness": "fresh"
+          },
+          {
+            "key": "F2",
+            "fact": "push_consent",
+            "value": true,
+            "freshness": "recent"
+          },
+          {
+            "key": "F3",
+            "fact": "whatsapp_consent",
+            "value": true,
+            "freshness": "recent"
+          }
+        ],
+        "channel_options": [
+          "in_app_message"
+        ],
+        "active_goal_id": null,
+        "activity": {
+          "plays": 2,
+          "completions": 0
+        }
+      },
+      "status": "accepted",
+      "proposal": {
+        "goal_id": "G12",
+        "intervention": "in_app_message",
+        "reason_code": "next_step",
+        "evidence_keys": [
+          "F0",
+          "F1",
+          "F2",
+          "F3"
+        ],
+        "confidence": 0.86
+      },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "latency_ms": 1406.0,
+      "attempts": [
+        {
+          "model": "gpt-5.4-mini",
+          "endpoint": "https://api.openai.com/v1/chat/completions",
+          "status": "accepted",
+          "network": true,
+          "cached": false,
+          "latency_ms": 1406.0
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1135,
+        "completion_tokens": 52,
+        "total_tokens": 1187
+      }
+    },
+    {
+      "case": "fallback",
+      "input": {
+        "eligible_goals": [
+          {
+            "goal_id": "G12",
+            "success_event": "play_started",
+            "window_hours": 168,
+            "rule_version": "2026-09-30"
+          }
+        ],
+        "evidence": [
+          {
+            "key": "F0",
+            "fact": "dialect",
+            "value": "d2",
+            "freshness": "fresh"
+          },
+          {
+            "key": "F1",
+            "fact": "language",
+            "value": "hin",
+            "freshness": "fresh"
+          },
+          {
+            "key": "F2",
+            "fact": "push_consent",
+            "value": true,
+            "freshness": "recent"
+          },
+          {
+            "key": "F3",
+            "fact": "whatsapp_consent",
+            "value": true,
+            "freshness": "recent"
+          }
+        ],
+        "channel_options": [
+          "home_page"
+        ],
+        "active_goal_id": null,
+        "activity": {
+          "plays": 2,
+          "completions": 0
+        }
+      },
+      "status": "accepted",
+      "proposal": {
+        "goal_id": "G12",
+        "intervention": "home_page",
+        "reason_code": "next_step",
+        "evidence_keys": [
+          "F0",
+          "F1",
+          "F2",
+          "F3"
+        ],
+        "confidence": 0.8
+      },
+      "model": "gpt-4.1-mini-2025-04-14",
+      "latency_ms": 1140.0,
+      "attempts": [
+        {
+          "model": "gpt-5.4-mini",
+          "endpoint": "https://api.openai.com/v1/chat/completions",
+          "status": "failed",
+          "error": "model_output_rejected",
+          "network": false,
+          "cached": false,
+          "latency_ms": 0.0
+        },
+        {
+          "model": "gpt-4.1-mini",
+          "endpoint": "https://api.openai.com/v1/chat/completions",
+          "status": "accepted",
+          "network": true,
+          "cached": false,
+          "latency_ms": 1140.0
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1137,
+        "completion_tokens": 42,
+        "total_tokens": 1179
+      }
+    }
+  ],
+  "accepted": 5,
+  "network_requests": 5,
+  "tokens": 5906
+}
